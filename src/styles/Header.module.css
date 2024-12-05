@@ -1,10 +1,56 @@
 .header {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #ffe8e8; /* Light pink background */
+  border-radius: 10px;
 }
 
-.logo {
-  width: 100px;
-  margin-bottom: 20px;
+.textSection {
+  flex: 1;
+  padding: 1rem;
+}
+
+.title {
+  font-family: "Cursive", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.learnMoreButton {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learnMoreButton:hover {
+  background-color: darkgray;
+}
+
+.imageSection {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.backgroundImage {
+  max-width: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 20%;
 }

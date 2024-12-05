@@ -5,12 +5,27 @@
 }
 
 .grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
   justify-content: center;
   gap: 20px;
 }
 
 .grid img {
-  width: 300px;
-  border-radius: 10px;
+  Width: 535px;
+  Top :998px;
+  Height: 638px;
+  Left :269px;
+  
+}
+#A{
+  Width:347px;
+  Height: 601px;
+  Top :998px;
+  Left: 837px;
+}
+#B{
+  width:30px;
+  height:30px;
+  border-radius: 30px;
 }

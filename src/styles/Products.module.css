@@ -7,12 +7,85 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 5px;
   width: 100%;
 }
 
 .grid img {
-  width: 100%;
+  Width: 535px;
+  Top :998px;
+  Height: 638px;
+  Left :269px;
+  
+}
+
+#img2 {
+  Width:347px;
+Height: 601px;
+Top :998px;
+Left: 837px;
+}
+#img3{
+  width:30px;
+  height:30px;
+  border-radius: 30px;
+
+}
+
+#section{
+   height: 1000px;
+   width: 1000px;
+   background-color: brown;
+}
+#img4{
+  Width:449px;
+Height:235px;
+Top:1345px;
+Left:1222px;
+}
+.visionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  background-color: #ffe8e8; /* Adjust to match your design */
+  padding: 2rem;
   border-radius: 10px;
-  height: 50%;
+}
+
+.visionText {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.visionImage {
+  flex: 1;
+}
+
+.visionImage img {
+  Width:700px;
+  Height:200px;
+  Top:1746px;
+  Left:356px;
+}
+
+.learnMoreButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learnMoreButton:hover {
+  background-color: darkgray;
+}
+
+/* Your existing styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
 }
