@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--pink);
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}

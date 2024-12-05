@@ -1,0 +1,16 @@
+.creative {
+  padding: 40px 20px;
+  background-color: var(--grey);
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.grid img {
+  width: 300px;
+  border-radius: 10px;
+}
